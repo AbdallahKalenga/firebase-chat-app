@@ -3,3 +3,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.owner {
+  flex-direction: row-reverse;
+}
+
+.owner .content {
+  align-items: flex-end;
+}
+
+.owner .content img {
+  border: none;
+  border-radius: 10px 0px 10px 10px;
+}
+
+.owner .time {
+  color: #387bf6;
+}
+
+.owner p {
+  background-color: #387bf6;
+  border-radius: 10px 0px 10px 10px;
+}
