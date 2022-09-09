@@ -104,7 +104,7 @@ const Register = () => {
 
   return (
     <div className="flex flex-col items-center w-full justify-center">
-      <div className="bg-[#fff] px-16 py-8 flex flex-col gap-3 items-center shadow-xl">
+      <div className="bg-[#fff] px-16 py-8 flex flex-col gap-3 items-center shadow-xl rounded-lg">
         <div className="flex flex-col">
           <h1 className="text-2xl text-gray-700 self-center"> Konnect </h1>
           <p className="text-[12px] text-gray-500 mt-1">
